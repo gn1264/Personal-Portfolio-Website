@@ -1,42 +1,56 @@
+# Personal Portfolio
 
-# Gaurav Kumar's Portfolio
+A Simple Portfolio and Blog app build with Django and templates styled with Bootstrap framework .
 
-Welcome to my personal portfolio website! 👋  
-This project showcases who I am, what I do, and the projects I’ve built.
+# Running the Project Locally
 
-## 🚀 Live Demo
-
-🌐 [Visit Portfolio](https://your-portfolio-link.com)  
-
-
-## 👨‍💻 About Me
-
-- 🎓 B.Tech in Computer Science Engineering @ SRM Institute of Science & Technology  
-- 💻 Skills: Java, Python, Django, HTML, CSS, Bootstrap  
-- 📈 Passionate about building efficient and scalable software solutions  
-- 📬 [LinkedIn](https://www.linkedin.com/in/gauravkumar2111?) | [GitHub](https://github.com/gn1264) | [Email](mailto:gauravkumar211103@gmail.com)
-
-## 🛠️ Tech Stack
-
-- HTML5  
-- CSS3 & Bootstrap 5
-- Django
-- JavaScript (for interactivity)  
-- Git & GitHub for version control  
-
-## 📸 Preview
-
-
-
-
-
-
-
-## 🔧 Installation & Setup
+## First, clone the repository to your local machine :
 
 ```bash
-git clone https://github.com/gn1264/portfolio.git
-cd portfolio
-# Open index.html in browser or serve via local server
+git clone https://github.com/gn1264/Personal-Portfolio-Website.git
+```
+
+## Create a virtual environment :
+
+```bash
+$ python -m venv .venv
+```
+
+## Activate the virtual environment on Windows :
 
 
+```bash
+$ source venv/Scripts/activate
+```
+
+## Install the requirements :
+
+```bash
+$ pip install -r requirements.txt
+```
+
+## Run collect static :
+
+```bash
+$ python manage.py collectstatic
+```
+
+## To create an superuser account, use this command :
+
+```bash
+$ python manage.py createsuperuser
+```
+
+## Apply the migrations :
+
+```bash
+$ python manage.py migrate
+```
+
+## Finally, run the development server :
+
+```bash
+$ python manage.py runserver
+```
+
+<b>The project will be available at :   </b>  **http://localhost:8000**
